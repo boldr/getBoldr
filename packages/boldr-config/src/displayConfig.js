@@ -1,5 +1,5 @@
 import chalk from 'chalk';
-import Table from 'cli-table2';
+import Table from 'cli-table3';
 
 function flattenExplanation(basePath, target, ctx) {
   const isArray = typeof ctx.length === 'number';
